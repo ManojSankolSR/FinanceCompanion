@@ -56,6 +56,7 @@ function getStyles(theme: Theme) {
       padding: 16,
       borderWidth: 1,
       borderColor: theme.colors.border,
+      overflow: 'hidden',
     },
     cardElevated: {
       backgroundColor: theme.colors.surfaceElevated,

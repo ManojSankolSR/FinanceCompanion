@@ -15,7 +15,7 @@ import { useStyles } from '../../../theme/useStyles';
 import { Theme } from '../../../theme/types';
 
 const { width } = Dimensions.get('window');
-const CHART_W = width - 64;
+const CHART_W = width - 120;
 
 export function ExpenseTrendChart() {
   const theme = useTheme();
@@ -70,6 +70,7 @@ export function ExpenseTrendChart() {
           yAxisThickness={0}
           yAxisTextStyle={styles.yAxisLabel}
           xAxisLabelTextStyle={styles.xLabel}
+          yAxisLabelWidth={45}
           dataPointsRadius={4}
           dataPointsColor={theme.colors.secondary}
           isAnimated

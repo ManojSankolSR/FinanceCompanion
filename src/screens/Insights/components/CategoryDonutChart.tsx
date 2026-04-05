@@ -39,8 +39,8 @@ export function CategoryDonutChart() {
           <PieChart
             data={pieData}
             donut
-            radius={100}
-            innerRadius={60}
+            radius={85}
+            innerRadius={55}
             showText={false}
             isAnimated
             animationDuration={700}

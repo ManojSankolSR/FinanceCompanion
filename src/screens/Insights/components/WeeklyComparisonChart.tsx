@@ -17,7 +17,7 @@ import { useStyles } from '../../../theme/useStyles';
 import { Theme } from '../../../theme/types';
 
 const { width } = Dimensions.get('window');
-const CHART_W = width - 64;
+const CHART_W = width - 100;
 
 export function WeeklyComparisonChart() {
   const theme = useTheme();
@@ -139,6 +139,7 @@ export function WeeklyComparisonChart() {
           roundedTop
           hideRules
           hideAxesAndRules
+          yAxisLabelWidth={0}
           xAxisThickness={0}
           yAxisThickness={0}
           isAnimated

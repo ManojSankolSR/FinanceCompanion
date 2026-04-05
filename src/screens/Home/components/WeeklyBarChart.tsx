@@ -11,7 +11,7 @@ import { useStyles } from '../../../theme/useStyles';
 import { Theme } from '../../../theme/types';
 
 const { width } = Dimensions.get('window');
-const CHART_WIDTH = width - 80;
+const CHART_WIDTH = width - 100;
 
 interface WeeklyBarChartProps {
   currencySymbol: string;
@@ -69,6 +69,7 @@ export const WeeklyBarChart: React.FC<WeeklyBarChartProps> = ({
           roundedBottom={false}
           hideRules
           hideAxesAndRules
+          yAxisLabelWidth={0}
           xAxisThickness={0}
           yAxisThickness={0}
           showGradient
