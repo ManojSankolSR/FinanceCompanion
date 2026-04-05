@@ -38,8 +38,8 @@ export function TopSpendingCategory({
       <GradientCard
         variant="gradient"
         gradientColors={[
-          theme.colors.cardGradientStart,
-          theme.colors.cardGradientEnd,
+          theme.colors.gradientStart,
+          theme.colors.gradientEnd,
         ]}
       >
         <View style={styles.topCatRow}>
